@@ -1,0 +1,190 @@
+﻿$--color-primary: #409EFF;
+
+$--block-background-color: #fff;//页面中块背景色
+
+
+$--menu-background-color:#fff;//top背景颜色
+
+$--always-white:#fff;//代替$--color-white
+
+
+$--left-contract-background-color:#409EFF;
+
+$--left-item-background-color: #ecf5ff;
+
+$--header-background:url(../static/whites/img/header_bg_dack.png) #2f8dee  no-repeat bottom center; // header 背景
+
+$--auth-index-background:url("~static/img/mw_bg.png") ;
+
+$--color-white: #fff !default;
+$--color-black: #000 !default;
+
+$--color-primary: #409EFF !default;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; /* 8cc5ff */
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /* a0cfff */
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+
+$--color-success: #67c23a !default;
+$--color-warning: #e6a23c !default;
+$--color-danger: #f56c6c !default;
+$--color-info: #909399 !default;
+
+$--color-success-light: mix($--color-white, $--color-success, 80%) !default;
+$--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
+$--color-danger-light: mix($--color-white, $--color-danger, 80%) !default;
+$--color-info-light: mix($--color-white, $--color-info, 80%) !default;
+
+$--color-success-lighter: mix($--color-white, $--color-success, 90%) !default;
+$--color-warning-lighter: mix($--color-white, $--color-warning, 90%) !default;
+$--color-danger-lighter: mix($--color-white, $--color-danger, 90%) !default;
+$--color-info-lighter: mix($--color-white, $--color-info, 90%) !default;
+
+$--color-text-primary: #303133 !default;
+$--color-text-regular: #606266 !default;
+$--color-text-secondary: #909399 !default;
+$--color-text-placeholder: #c0c4cc !default;
+
+/* Link
+-------------------------- */
+$--link-color: $--color-primary-light-2 !default;
+$--link-hover-color: $--color-primary !default;
+
+/* Background
+-------------------------- */
+$--background-color-base: #e8e8e8 !default;
+
+/* Border
+-------------------------- */
+$--border-color-base: #dcdfe6 !default;
+$--border-color-light: #e4e7ed !default;
+$--border-color-lighter: #ebeef5 !default;
+$--border-color-extra-light: #f2f6fc !default;
+$--border-color-hover: $--color-text-placeholder !default;
+
+/* Fill
+-------------------------- */
+$--fill-base: $--color-white !default;
+
+/* Disable base
+-------------------------- */
+$--disabled-fill-base: $--background-color-base !default;
+$--disabled-color-base: $--color-text-placeholder !default;
+$--disabled-border-base: $--border-color-light !default;
+
+/* Icon
+-------------------------- */
+$--icon-color: #666 !default;
+$--icon-color-base: $--color-info !default;
+
+/* Checkbox
+-------------------------- */
+$--checkbox-color: $--color-text-regular !default;
+$--checkbox-checked-text-color: $--color-primary;
+$--checkbox-checked-input-border-color: $--color-primary ;
+$--checkbox-checked-input-fill: $--color-primary ;
+$--checkbox-disabled-input-border-color: $--border-color-base ;
+$--checkbox-disabled-input-fill: #edf2fc ;
+$--checkbox-disabled-icon-color: $--color-text-placeholder;
+
+/* Select
+-------------------------- */
+$--select-border-color-hover: $--border-color-hover ;
+$--select-close-hover-color: $--color-text-secondary;
+$--select-input-color: $--color-text-placeholder ;
+$--select-input-focus-background: $--color-primary ;
+$--select-option-color: $--color-text-regular ;
+$--select-option-disabled-color: $--color-text-placeholder;
+$--select-option-disabled-background: $--color-white;
+$--select-option-hover-background: $--background-color-base ;
+$--select-option-selected: $--color-primary;
+$--select-option-selected-hover: $--background-color-base;
+$--select-group-color: $--color-info;
+$--select-dropdown-background: $--color-white;
+$--select-dropdown-empty-color: #999;
+
+
+/* Button
+-------------------------- */
+$--button-primary-border: $--color-primary;
+$--button-primary-color: $--always-white ;
+$--button-primary-fill: $--color-primary;
+
+$--button-primary-border-color:$--color-primary;
+$--button-primary-font-color:$--always-white ;
+$--button-primary-background-color: $--color-primary;
+
+$--button-disabled-font-color:$--color-text-placeholder;
+$--button-disabled-background-color: $--color-white ;
+$--button-disabled-border-color:$--border-color-lighter;
+
+/* Table
+-------------------------- */
+$--table-border-color: $--border-color-lighter;
+$--table-header-color: $--color-text-regular;
+$--table-text-color: $--color-text-regular;
+$--table-row-hover-background: $--color-primary-light-9;
+$--table-current-row-background: $--color-primary-light-9 ;
+$--table-header-background: #f7f7f7;
+$--table-footer-background: $--color-text-placeholder ;
+
+/* Tree
+// -------------------------- */
+$--tree-node-hover-color: $--background-color-base;
+
+/* DatePicker
+--------------------------*/
+$--datepicker-color: $--color-text-regular;
+$--datepicker-inner-border-color: #e4e4e4;
+$--datepicker-inrange-hover-color: $--border-color-extra-light;
+$--datepicker-inrange-color: $--border-color-extra-light ;
+$--datepicker-active-color: $--color-primary;
+$--datepicker-text-hover-color: $--color-primary ;
+
+/* Checkbox
+-------------------------- */
+$--checkbox-color: $--color-text-regular;
+$--checkbox-checked-text-color: $--color-primary ;
+$--checkbox-checked-input-border-color: $--color-primary;
+$--checkbox-checked-input-fill: $--color-primary ;
+$--checkbox-disabled-input-border-color: $--border-color-base;
+$--checkbox-disabled-input-fill: #edf2fc ;
+$--checkbox-disabled-icon-color: $--color-text-placeholder;
+
+.el-table th > .cell{
+    font-size: 14px;
+}
+.bounced_content .el-checkbox-group{
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto !important;
+}
+.ts-drawer__body .el-form--inline .el-form-item{
+    min-width: 25%;
+    text-align: right;
+}
+.el-select__tags-text{
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: middle;
+  max-width: 75px;
+}
+
+@import '@/assets/scss/var/var.scss';
+/********   导出色值    ***********/
+:export {
+  colorPrimary: $--color-primary;
+  colorSuccess:$--color-success;
+  colorWarning:$--color-warning;
+  colorDanger:$--color-danger;
+  textPlaceholder: $--color-text-placeholder;
+  activeBackground-color:$--left-item-background-color;
+  textPrimary:$--color-text-primary;
+}
